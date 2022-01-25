@@ -5,9 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gioco dei dadi tra utente e computer</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    
+    <main class="container">
+        <h1>Giochiamo! <br> Tira i dadi</h1>
+        <button id="click">Clicca e vediamo chi sarà il vincitore!</button>
+
+        <section>
+            <div class="player">Punteggio del Player One: <span class="result_player_one"></span></div>
+            <div class="computer">Punteggio del Player Two: <span class="result_player_two"></span></div>
+            <div class="win">Il vincitore è: <span id="risultato"></span></div>
+        </section>
+    </main>
+
+
+
     <script type="text/javascript" src="main.js"></script>
 </body>
 </html>

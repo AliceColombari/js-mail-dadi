@@ -1,0 +1,41 @@
+/* COMMON */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #b91350;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.container{
+   text-align: center;
+}
+
+h1{
+    color: #fff;
+    font-size: 50px;
+    margin: 30px;
+}
+
+#click{
+    border: 1px solid;
+    padding: 15px;
+    box-shadow: 5px 10px 20px #b91350 inset;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #b91350;
+}
+
+div{
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.win{
+    text-transform: uppercase;
+}

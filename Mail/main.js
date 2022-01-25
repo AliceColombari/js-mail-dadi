@@ -39,4 +39,5 @@ if (emailPresente == false) {
     console.log('email presente')
 
     alert('Sei autorizzato ad accedere!');
+    document.querySelector('.title').innerHTML = 'Accesso consentito, BENVENUTO!';
 }
